@@ -1,2 +1,23 @@
-﻿body {
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000C18;
+}
+h1 {
+    color: hotpink;
+    font-family: Consolas;
+    text-shadow: 
+        0 0 5px #E93892, 
+        0 0 5px #E93892, 
+        0 0 5px #E93892, 
+        0 0 5px #E93892;
 }
